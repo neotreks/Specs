@@ -19,7 +19,7 @@ Pod::Spec.new do |m|
 
   m.platform              = :ios
   m.ios.deployment_target = '10.0'
-  m.swift_version = '5.3'
+  m.swift_version = '5.3.2'
 
   m.dependency 'Alamofire', '5.4.1'
   m.dependency 'ObjectMapper', '4.2.0'
