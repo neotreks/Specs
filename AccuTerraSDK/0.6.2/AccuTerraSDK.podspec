@@ -25,7 +25,7 @@ Pod::Spec.new do |m|
   m.dependency 'ObjectMapper', '4.2.0'
   m.dependency 'ReachabilitySwift', '5.0.0'
   m.dependency 'GRDB.swift', '5.3.0'
-  m.dependency 'AccuTerra-Mapbox-iOS-SDK', '5.7.0.8'
+  m.dependency 'AccuTerra-Mapbox-iOS-SDK', '5.8.0.2'
   m.dependency 'GzipSwift', '5.1.1'
   m.dependency 'Turf', '1.1.0'
   m.dependency 'SSZipArchive', '2.2.3'
