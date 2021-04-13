@@ -29,6 +29,7 @@ Pod::Spec.new do |m|
   m.dependency 'Turf', '1.1.0'
   m.dependency 'SSZipArchive', '2.2.3'
   m.dependency 'Surge', '2.3.2'
+  m.dependency 'AccuTerraGRDB.swift', '5.6.0'
   
   # AWS
   $awsVersion = '2.22.0'
