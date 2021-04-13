@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.subspec 'SQLCipher' do |ss|
     ss.source_files = 'GRDB/**/*.swift', 'Support/SQLCipher_config.h'
     ss.framework = 'Foundation'
-    ss.dependency 'SQLCipher', '4.4.3'
+    ss.dependency 'AccuTerraSQLCipher', '4.4.3'
     ss.xcconfig = {
       'OTHER_SWIFT_FLAGS' => '$(inherited) -D SQLITE_HAS_CODEC -D GRDBCIPHER -D SQLITE_ENABLE_FTS5',
       'OTHER_CFLAGS' => '$(inherited) -DSQLITE_HAS_CODEC -DGRDBCIPHER -DSQLITE_ENABLE_FTS5',
