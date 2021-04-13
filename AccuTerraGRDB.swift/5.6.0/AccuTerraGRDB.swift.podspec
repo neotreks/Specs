@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.10'
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
-  s.default_subspec  = 'standard'
+  s.default_subspec  = 'SQLCipher'
   
   s.subspec 'standard' do |ss|
     ss.source_files = 'GRDB/**/*.swift', 'Support/grdb_config.h'
