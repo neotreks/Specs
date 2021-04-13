@@ -58,7 +58,7 @@
     },
     {
       "dependencies": {
-        "SQLCipher/common": [
+        "AccuTerraSQLCipher/common": [
 
         ]
       },
@@ -67,7 +67,7 @@
     {
       "compiler_flags": "",
       "dependencies": {
-        "SQLCipher/common": [
+        "AccuTerraSQLCipher/common": [
 
         ]
       },
@@ -79,7 +79,7 @@
     {
       "compiler_flags": "",
       "dependencies": {
-        "SQLCipher/common": [
+        "AccuTerraSQLCipher/common": [
 
         ]
       },
