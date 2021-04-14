@@ -21,18 +21,19 @@ Pod::Spec.new do |m|
   m.ios.deployment_target = '10.0'
   m.swift_version = '5.3.2'
 
-  m.dependency 'Alamofire', '5.4.1'
+  m.dependency 'AccuTerraGRDB.swift', '5.6.0'
+  m.dependency 'Alamofire', '5.4.2'
   m.dependency 'ObjectMapper', '4.2.0'
+  m.dependency 'AccuTerraGRDB.swift', '5.6.0'
   m.dependency 'ReachabilitySwift', '5.0.0'
   m.dependency 'AccuTerra-Mapbox-iOS-SDK', '5.8.0.5'
   m.dependency 'GzipSwift', '5.1.1'
-  m.dependency 'Turf', '1.1.0'
+  m.dependency 'Turf', '1.2.0'
   m.dependency 'SSZipArchive', '2.2.3'
   m.dependency 'Surge', '2.3.2'
-  m.dependency 'AccuTerraGRDB.swift', '5.6.0'
   
   # AWS
-  $awsVersion = '2.22.0'
+  $awsVersion = '2.23.3'
   m.dependency 'AWSMobileClient', $awsVersion
   m.dependency 'AWSCore', $awsVersion
   m.dependency 'AWSS3', $awsVersion
