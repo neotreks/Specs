@@ -40,7 +40,7 @@ Pod::Spec.new do |m|
   
   m.requires_arc = true
 
-  m.vendored_frameworks = 'AccuTerraSDK.xcframework'
+  m.vendored_frameworks = 'AccuTerraSDK.framework'
   m.module_name = 'AccuTerraSDK'
   m.resources = 'AccuTerra.bundle'
 
