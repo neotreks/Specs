@@ -13,7 +13,7 @@ Pod::Spec.new do |m|
   m.documentation_url = 'https://github.com/MapLibre'
 
   m.source = {
-    :http => "https://distribution.accuterra.com/com/accuterra/mapboxsdk/accuterra-maplibre-ios-sdk/#{version}/accuterra-maplibre-ios-sdk-#{version}-dynamic.zip",
+    :http => "https://distribution.accuterra.com/com/accuterra/mapboxsdk/accuterra-mapbox-ios-sdk/#{version}/accuterra-mapbox-ios-sdk-#{version}-dynamic.zip",
     :flatten => true
   }
 
