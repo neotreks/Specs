@@ -22,7 +22,7 @@ Pod::Spec.new do |m|
 
   m.requires_arc = true
 
-  m.vendored_frameworks = 'dynamic/Mapbox.framework'
+  m.vendored_frameworks = 'Mapbox.xcframework'
   m.module_name = 'Mapbox'
 
   m.preserve_path = '**/*.bcsymbolmap'
