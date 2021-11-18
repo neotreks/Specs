@@ -18,13 +18,12 @@ Pod::Spec.new do |m|
   }
 
   m.platform              = :ios
-  m.ios.deployment_target = '11.0'
+  m.ios.deployment_target = '13.0'
   m.swift_version = '5.3.2'
 
-  m.dependency 'AccuTerraGRDB.swift', '5.6.0'
+  m.dependency 'AccuTerraGRDB.swift', '5.6.1'
   m.dependency 'Alamofire', '5.4.2'
   m.dependency 'ObjectMapper', '4.2.0'
-  m.dependency 'AccuTerraGRDB.swift', '5.6.0'
   m.dependency 'ReachabilitySwift', '5.0.0'
   m.dependency 'AccuTerra-MapLibre-iOS-SDK', '5.11.0'
   m.dependency 'GzipSwift', '5.1.1'
