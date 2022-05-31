@@ -25,7 +25,7 @@ Pod::Spec.new do |m|
   m.dependency 'Alamofire', '5.4.2'
   m.dependency 'ObjectMapper', '4.2.0'
   m.dependency 'ReachabilitySwift', '5.0.0'
-  m.dependency 'AccuTerra-MapLibre-iOS-SDK', '5.12.6'
+  m.dependency 'AccuTerra-MapLibre-iOS-SDK', '5.12.7'
   m.dependency 'GzipSwift', '5.1.1'
   m.dependency 'Turf', '1.2.0'
   m.dependency 'SSZipArchive', '2.2.3'
