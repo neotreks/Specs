@@ -18,9 +18,6 @@
   },
   "summary": "Full Database Encryption for SQLite.",
   "version": "4.4.4",
-  "pod_target_xcconfig": {
-    "ENABLE_BITCODE": "YES"
-  },
   "subspecs": [
     {
       "compiler_flags": [
