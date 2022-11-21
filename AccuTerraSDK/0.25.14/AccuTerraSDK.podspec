@@ -21,7 +21,7 @@ Pod::Spec.new do |m|
   m.ios.deployment_target = '14.0'
   m.swift_version = '5.3.2'
 
-  m.dependency 'AccuTerraGRDB.swift', '6.0.0'
+  m.dependency 'AccuTerraGRDB.swift', '6.0.1'
   m.dependency 'Alamofire', '5.4.2'
   m.dependency 'ObjectMapper', '4.2.0'
   m.dependency 'ReachabilitySwift', '5.0.0'
