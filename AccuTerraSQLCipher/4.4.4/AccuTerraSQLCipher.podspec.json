@@ -67,7 +67,10 @@
 
         ]
       },
-      "name": "standard"
+      "name": "standard",
+      "pod_target_xcconfig": {
+        "ENABLE_BITCODE": "YES"
+      }
     },
     {
       "compiler_flags": "",
