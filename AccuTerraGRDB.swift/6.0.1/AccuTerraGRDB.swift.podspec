@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '4.0'
   s.tvos.deployment_target = '11.0'
   s.default_subspec  = 'SQLCipher'
-  s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'YES' }
   
   s.subspec 'standard' do |ss|
     ss.source_files = 'GRDB/**/*.swift', 'Support/grdb_config.h'
