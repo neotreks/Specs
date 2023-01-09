@@ -6,7 +6,7 @@
   "license": "BSD",
   "name": "AccuTerraSQLCipher",
   "platforms": {
-    "ios": "8.0",
+    "ios": "14.0",
     "osx": "10.9",
     "tvos": "9.0",
     "watchos": "2.0"

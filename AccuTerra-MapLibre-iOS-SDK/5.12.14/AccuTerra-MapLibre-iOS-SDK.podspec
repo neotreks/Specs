@@ -18,7 +18,7 @@ Pod::Spec.new do |m|
   }
 
   m.platform              = :ios
-  m.ios.deployment_target = '9.0'
+  m.ios.deployment_target = '14.0'
 
   m.requires_arc = true
 
