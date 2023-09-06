@@ -22,7 +22,7 @@ Pod::Spec.new do |m|
   m.swift_version = '5.3.2'
 
   m.dependency 'AccuTerra-MapLibre-iOS-SDK', '5.12.15'
-  m.dependency 'AccuTerraSDKCommon', '0.1.0'
+  m.dependency 'AccuTerraSDKCommon', '0.1.2'
 
   m.requires_arc = true
 
