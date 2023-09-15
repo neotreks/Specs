@@ -13,7 +13,7 @@ Pod::Spec.new do |m|
   m.license           = { :type => 'Commercial', :text => 'BY DOWNLOADING THE ACCUTERRA SDK FRAMEWORK, YOU ARE AGREEING TO THE TERMS AND CONDITIONS OF THE ACCUTERRA SDK LICENSE AGREEMENT LOCATED AT https://sdk.accuterra.com.  IF YOU DO NOT AGREE TO THE TERMS AND CONDITIONS OF THE ACCUTERRA SDK LICENSE AGREEMENT, YOU ARE NOT AUTHORIZED TO AND YOU MAY NOT DOWNLOAD THE ACCUTERRA TELEMETRY FRAMEWORK.' }
 
   m.source = {
-    :http => "https://distribution.accuterra.com/com/accuterra/accuterra-sdk-ios-telemetry/#{version}/accuterra-ios-sdk-telemetry-#{version}.zip",
+    :http => "https://distribution.accuterra.com/com/accuterra/accuterra-ios-sdk-telemetry/#{version}/accuterra-ios-sdk-telemetry-#{version}.zip",
     :flatten => true
   }
 
