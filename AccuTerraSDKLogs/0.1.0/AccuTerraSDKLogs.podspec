@@ -21,6 +21,12 @@ Pod::Spec.new do |m|
   m.ios.deployment_target = '14.0'
   m.swift_version = '5.3.2'
 
+  m.dependency 'AccuTerraGRDB.swift', '6.0.3'
+  m.dependency 'AccuTerraSDKCommon', '0.1.5'
+  m.dependency 'AccuTerraSDKAuth', '0.1.0'
+  m.dependency 'Alamofire', '5.6.4'
+  m.dependency 'ReachabilitySwift', '5.0.0'
+
   m.requires_arc = true
 
   m.vendored_frameworks = 'AccuTerraSDKLogs.xcframework'
