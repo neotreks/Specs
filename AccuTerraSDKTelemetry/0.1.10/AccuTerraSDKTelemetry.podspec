@@ -22,7 +22,7 @@ Pod::Spec.new do |m|
   m.swift_version = '5.3.2'
 
   m.dependency 'AccuTerraGRDB.swift', '6.0.3'
-  m.dependency 'AccuTerraSDKCommon', '0.1.7'
+  m.dependency 'AccuTerraSDKCommon', '0.1.8'
 
   m.requires_arc = true
 
