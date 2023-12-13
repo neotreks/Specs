@@ -23,7 +23,7 @@ Pod::Spec.new do |m|
 
   m.requires_arc = true
 
-  m.vendored_frameworks = 'AccuTerraTrackSDK.framework'
+  m.vendored_frameworks = 'AccuTerraTrackSDK.xcframework'
   m.module_name = 'AccuTerraTrackSDK'
 
   m.preserve_path = '**/*.bcsymbolmap'
