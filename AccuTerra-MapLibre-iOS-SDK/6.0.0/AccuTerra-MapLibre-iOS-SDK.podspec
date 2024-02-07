@@ -22,8 +22,8 @@ Pod::Spec.new do |m|
 
   m.requires_arc = true
 
-  m.vendored_frameworks = 'Mapbox.xcframework'
-  m.module_name = 'Mapbox'
+  m.vendored_frameworks = 'MapLibre.xcframework'
+  m.module_name = 'MapLibre'
 
   m.preserve_path = '**/*.bcsymbolmap'
 
