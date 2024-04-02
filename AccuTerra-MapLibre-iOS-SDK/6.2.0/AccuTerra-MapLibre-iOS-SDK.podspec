@@ -17,6 +17,7 @@ Pod::Spec.new do |m|
     :flatten => true
   }
 
+  m.resources = 'MapLibre.bundle'
   m.platform              = :ios
   m.ios.deployment_target = '9.0'
 
