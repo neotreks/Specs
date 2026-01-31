@@ -13,8 +13,7 @@ Pod::Spec.new do |m|
   m.license           = { :type => 'Commercial', :text => 'BY DOWNLOADING THE ACCUTERRA SDK Core FRAMEWORK, YOU ARE AGREEING TO THE TERMS AND CONDITIONS OF THE ACCUTERRA SDK LICENSE AGREEMENT LOCATED AT https://sdk.accuterra.com.  IF YOU DO NOT AGREE TO THE TERMS AND CONDITIONS OF THE ACCUTERRA SDK LICENSE AGREEMENT, YOU ARE NOT AUTHORIZED TO AND YOU MAY NOT DOWNLOAD THE ACCUTERRA SDK FRAMEWORK.' }
 
   m.source = {
-    :http => "https://distribution.accuterra.com/com/accuterra/accuterra-ios-sdk-core/#{version}/AccuTerraSDKCore.zip",
-    :flatten => true
+    :http => "https://distribution.accuterra.com/com/accuterra/accuterra-ios-sdk-core/#{version}/AccuTerraSDKCore.zip"
   }
 
   m.platform              = :ios
