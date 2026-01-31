@@ -1,0 +1,22 @@
+Pod::Spec.new do |s|
+  s.name         = 'ReachabilitySwift'
+  s.version      = '5.2.4'
+  s.module_name = 'Reachability'
+  s.homepage     = 'https://github.com/ashleymills/Reachability.swift'
+  s.authors      = {
+    'Ashley Mills' => 'ashleymills@mac.com'
+  }
+  s.summary      = 'Replacement for Apple\'s Reachability re-written in Swift with callbacks.'
+  s.license      = { :type => 'MIT' }
+
+# Source Info
+  s.ios.deployment_target = "12.0"
+  s.osx.deployment_target = "10.13"
+  s.tvos.deployment_target  = "9.0"
+  s.source       =  {
+    :http => "https://distribution.accuterra.com/com/accuterra/reachability/5.2.4/ReachabilitySwift.xcframework.zip",
+    :flatten => true
+  }
+  s.vendored_frameworks = 'ReachabilitySwift.xcframework'
+  s.swift_version = '5.0'
+end
